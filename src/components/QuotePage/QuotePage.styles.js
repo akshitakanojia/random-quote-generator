@@ -1,9 +1,11 @@
 import styled from 'styled-components'
 
 export const StyledQuotePage = styled.div`
+  position: relative;
+  min-height: 100vh;
   max-width: 1200px;
   margin : 0 auto;
-  padding: 2rem;
+  padding: 2rem 2rem 4rem;
 
   .option{
     display: flex;
@@ -67,4 +69,16 @@ export const QuotesWrapper = styled.div`
       font-size: 16px;
     }
   }
+`
+
+export const Footer = styled.div`
+  text-align: center;
+  margin-bottom : 10px;
+	font-family : Montserrat;
+	font-weight : 400;
+	size : 14px;
+	color : #A9A9A9;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 `
