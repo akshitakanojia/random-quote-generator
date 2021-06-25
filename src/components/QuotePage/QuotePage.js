@@ -4,7 +4,7 @@ import axios from 'axios';
 
 import QuoteCard from '../QuoteCard/QuoteCard'
 import Author from '../Author/Author';
-import { QuotesWrapper, StyledQuotePage } from './QuotePage.styles'
+import { QuotesWrapper, StyledQuotePage, Footer } from './QuotePage.styles'
 
 const URL = "https://quote-garden.herokuapp.com/api/v3/quotes"
 
@@ -97,6 +97,7 @@ const QuotePage = () => {
               </>
         }
       </QuotesWrapper>
+      <Footer>created by akshitakanojia - devChallenges.io</Footer>
     </StyledQuotePage>
   )
 }
